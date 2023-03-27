@@ -216,6 +216,7 @@ padding: 2rem;
 }
 
 
+
 .liLocales{
     background-color: white;
     border-radius: 50%;
@@ -263,6 +264,14 @@ padding: 2rem;
 }
 .gmailLi{
     display: block;
+}
+
+.conteiner div ul {
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: none;
 }
 
 .headerSN{
@@ -342,6 +351,22 @@ padding: 2rem;
         flex-direction: row;
         align-items: center;
         font-size: 9px;
+    }
+}
+
+@media (max-width:460px){
+    .footerLocales{
+        flex-direction: row;
+        align-items: center;
+        font-size:9px;
+    }
+}
+
+@media(max-width:478px){
+    .footerSN{
+        flex-direction: row;
+        align-items: center;
+        font-size: 10px;
     }
 }
 
